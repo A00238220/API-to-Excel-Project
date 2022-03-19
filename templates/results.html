@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<!--Google Analytics Tag-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8P81R6B46S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8P81R6B46S');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='lost.css')}}" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+    <title>Excel Upload</title>
+    
+    
+</head>
+<body>
+
+<title>Download Excel file</title>
+<center>
+
+Success!! Here is your file
+  <br><br>
+
+  <a href="static/processed/plot.xlsx">Download File</a>
+  <br>
+
+
+
+</center>
+</html>
